@@ -1,0 +1,12 @@
+/target/
+target
+.settings/*
+!.settings/.jsdtscope
+.project
+.classpath
+
+/.idea/
+.idea
+*.iml
+
+*.war
