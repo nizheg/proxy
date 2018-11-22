@@ -94,6 +94,7 @@ public class ProxyServlet extends HttpServlet {
             }
         }
         connection.maxBodySize(10*1024*1024);
+        connection.ignoreContentType(true);
         return connection;
     }
 
